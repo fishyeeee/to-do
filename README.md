@@ -1,16 +1,43 @@
-# React + Vite
+# Todo List App (CRUD + Labels)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Todo List web application built with React and Tailwind CSS, featuring a clean UI, urgency labels, and fully functional CRUD operations. All data is stored locally using localStorage.
 
-Currently, two official plugins are available:
+### Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Create Tasks: Add new tasks with a title and an urgency level (Low, Medium, High, Urgent).
 
-## React Compiler
+- Read & View Tasks: View all tasks in a structured list with clear visual indicators.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Update Tasks: Edit task titles and change their urgency labels at any time.
 
-## Expanding the ESLint configuration
+- Delete Tasks: Remove tasks that are no longer needed.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Mark as Completed: Toggle tasks as completed or active.
+
+- Urgency Labels: Each task has a color-coded urgency label for better prioritization.
+
+- Filter by Labels: Navigate tasks by urgency level (All, Low, Medium, High, Urgent).
+
+- Status Filtering: Filter tasks by status: All, Active, or Completed.
+
+- Search Functionality: Quickly find tasks using keyword search.
+
+- Persistent Storage: Tasks are saved in localStorage, so they remain after page refresh.
+
+- Responsive & Modern UI: Glassmorphism design with gradients and smooth interactions.
+
+### Tech Stack
+
+- React
+- Tailwind CSS
+- JavaScript (ES6+)
+- localStorage
+
+### Purpose
+
+This project was created to practice:
+
+- Frontend CRUD logic
+- State management in React
+- UI/UX design with Tailwind CSS
+- Building a portfolio-ready web application
